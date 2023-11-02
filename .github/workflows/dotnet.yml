@@ -27,20 +27,21 @@ jobs:
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: 6.0.x
+    - name: Install .NET WASM Build Tools
+      run: dotnet workload install wasm-tools
     - name: Publish .NET Core Project
-      run: dotnet publish AboutMe/Server/AboutMe.Server.csproj -c Release -o release --nologo
+      run: dotnet publish AboutMe/Server/AboutMe.Server.csproj -c:Release -p:GHPages=true -o dist/Web --nologo
     - name: Restore dependencies
       run: dotnet restore
-    - name: Commit wwroot
+    - name: Commit to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@3.7.1
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages
-        FOLDER: release/wwwroot
+        FOLDER: dist/Web/wwwroot
     - name: Build
       run: dotnet build --no-restore
     # changes the base-tag in index.html from '/' to 'BlazorGitHubPagesDemo' to match GitHub Pages repository subdirectory
-    - name: Change base-tag in index.html from / to AboutMe
-      run: sed -i 's/<base href="\/" \/>/<base href="\/AboutMe\/" \/>/g' release/wwwroot/index.html
+  
     
       
