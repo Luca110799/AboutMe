@@ -121,11 +121,11 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-J74MNPU3L+TPyZaQ67lj0ljUDPjVKlqQMBdhDqwpyow=",
+      "hash": "sha256-puZBATj5BejonMOzqnIwo04XBohvQ6dgPnj3rLWWFTw=",
       "url": "_framework\/blazor.boot.json"
     },
     {
-      "hash": "sha256-tdbcMedIlxV\/rV9HTpweDx\/lZfs9WxtfIHlnNg5XnaU=",
+      "hash": "sha256-Zxyj5gELEbewiKgQCYwrF3zIXStok8Qy5rCLHeo\/YGs=",
       "url": "_framework\/AboutMe.Client.dll"
     },
     {
@@ -133,7 +133,7 @@
       "url": "_framework\/AboutMe.Shared.dll"
     },
     {
-      "hash": "sha256-WkZduinYOPsJk\/CygxNdk2IdTWdYcaYEzMw6x0U5Fkg=",
+      "hash": "sha256-Jjehz9tX+j27CpgjV0fe0XlTfDS+EOKhPjmwbvoUMq4=",
       "url": "_framework\/Microsoft.AspNetCore.Components.dll"
     },
     {
@@ -489,5 +489,5 @@
       "url": "_content\/Radzen.Blazor\/Radzen.Blazor.js"
     }
   ],
-  "version": "H7PBCfxc"
+  "version": "QJgbEsOe"
 };
