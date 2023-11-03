@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AboutMe.Server", "AboutMe\Server\AboutMe.Server.csproj", "{CDA9095F-87DE-45A5-B22E-B479B966BD8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AboutMe.Server", "AboutMe\Server\AboutMe.Server.csproj", "{CDA9095F-87DE-45A5-B22E-B479B966BD8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AboutMe.Client", "AboutMe\Client\AboutMe.Client.csproj", "{8717C14C-2E1D-41D7-8C55-4A3AB3F8BC94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AboutMe.Client", "AboutMe\Client\AboutMe.Client.csproj", "{8717C14C-2E1D-41D7-8C55-4A3AB3F8BC94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AboutMe.Shared", "AboutMe\Shared\AboutMe.Shared.csproj", "{DFE5185C-52EB-4B9F-9953-FF7B845E188D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AboutMe.Shared", "AboutMe\Shared\AboutMe.Shared.csproj", "{DFE5185C-52EB-4B9F-9953-FF7B845E188D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
